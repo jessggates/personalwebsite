@@ -83,6 +83,20 @@ ul,ol{
     margin-bottom: 20px;
 }
 
+.picture{
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.picture img{
+    text-align: center;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 
 form{
     background: #f4f4f4;
