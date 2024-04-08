@@ -17,6 +17,7 @@ header{
     color: #fff;
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 5px;
     min-height: 70px;
     border-bottom: 5px solid #659c77;
     /*i centered the header and the nav list, but they look off to me?*/
@@ -74,7 +75,7 @@ p{
 p a{
     color: #af6dbd;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 10;
     padding: 20px;
 }
 
@@ -84,7 +85,6 @@ ul,ol{
 }
 
 .picture{
-    border: 1px solid #ddd;
     padding: 5px;
     margin: 5px;
     text-align: center;
@@ -97,12 +97,14 @@ ul,ol{
     margin-bottom: 10px;
 }
 
-
 form{
-    background: #f4f4f4;
+    background-color: transparent;
+    color: #333;
     padding: 20px;
     margin: 20px 0;
 }
+/*tried adjusting padding and margin, but can't figure out why
+there is a gap between Contact Me! and form*/
 
 form label{
     display: block;
@@ -110,20 +112,24 @@ form label{
 }
 
 form input[type="text"],
-form input[type="email"]
+form input[type="email"],
+form input[type="message"]
 {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+
+/*can't figure out why my message isn't 100% width too?*/
 
 form button[type="submit"]
 {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #0779e4;
+    background-color: #af6dbd;
     color: #fff;
     border: 0;
+    margin-top: 10px;
 }
 
